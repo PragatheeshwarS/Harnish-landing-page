@@ -1,0 +1,97 @@
+body {
+    background-color: #232861;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container img{
+    width:90px;
+    height:90px;
+}
+
+.navbar {
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.main-section {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('background-image.jpg') center/cover no-repeat;
+}
+
+.main-section .display-4 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.main-section .lead {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.main-section .btn-lg {
+    padding: 0.75rem 1.5rem;
+    font-size: 1.25rem;
+}
+
+
+/* try slider */
+
+.swiper {
+    width: 100%;
+    height: auto;
+
+    padding-bottom: 130px;
+    padding-top: 60px;
+}
+
+.swiper h6 {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.swiper h1 {
+    text-align: center;
+}
+
+.swiper-slide {
+    text-align: initial;
+    font-size: 17px;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.reviewer-info {
+    margin-top: 20px;
+}
+
+.reviewer-info img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.reviewer-info h5 {
+    margin: 0;
+}
+
+.reviewer-info span {
+    font-size: 14px;
+    color: #777;
+}
